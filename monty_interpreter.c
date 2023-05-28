@@ -114,6 +114,7 @@ void monty_interpreter(char *file_path)
 		{"pall", opcode_pall},
 		{"pint", opcode_pint},
 		{"pop", opcode_pop},
+		{"swap", opcode_swap},
 		/* Add more opcode definitions here */
 		{NULL, NULL} /* Terminate the list with NULL */
 	};
