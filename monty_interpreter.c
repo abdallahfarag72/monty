@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "monty.h"
 
 /**
@@ -113,6 +112,7 @@ void monty_interpreter(char *file_path)
 	instruction_t opcode_list[] = {
 		{"push", opcode_push},
 		{"pall", opcode_pall},
+		{"pint", opcode_pint},
 		/* Add more opcode definitions here */
 		{NULL, NULL} /* Terminate the list with NULL */
 	};

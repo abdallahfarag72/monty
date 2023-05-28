@@ -54,5 +54,6 @@ void monty_interpreter(char *file_path);
 /* Helper functions for opcode implementations */
 void opcode_push(stack_t **stack, unsigned int line_number);
 void opcode_pall(stack_t **stack, unsigned int line_number);
+void opcode_pint(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */
