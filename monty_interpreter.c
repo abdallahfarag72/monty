@@ -120,6 +120,7 @@ void monty_interpreter(char *file_path)
 		{"sub", opcode_sub},
 		{"div", opcode_div},
 		{"mul", opcode_mul},
+		{"mod", opcode_mod},
 		/* Add more opcode definitions here */
 		{NULL, NULL} /* Terminate the list with NULL */
 	};
