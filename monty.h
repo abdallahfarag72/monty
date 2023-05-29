@@ -46,8 +46,6 @@ typedef struct {
 
 extern MontyData data;
 
-/* Function Prototypes */
-
 /* The main interpreter function */
 void monty_interpreter(char *file_path);
 
@@ -61,5 +59,6 @@ void opcode_add(stack_t **stack, unsigned int line_number);
 void opcode_nop(stack_t **stack, unsigned int line_number);
 void opcode_sub(stack_t **stack, unsigned int line_number);
 void opcode_div(stack_t **stack, unsigned int line_number);
+void opcode_mul(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */
